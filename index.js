@@ -17,15 +17,15 @@ exports.handler = (event, context, callback) => {
 
     const requestBody = JSON.parse(event.body);
 
-    // const userData = requestBody.UserData;
+    const userData = requestBody.UserData;
 
-    const userData = [
-        { event_id: "event3", user_id: "event3", church_name: "grace" },
-        { event_id: "event3", user_id: "user1", church_name: "" },
-        { event_id: "event3", user_id: "user2", church_name: "" },
-        { event_id: "event3", user_id: "user3", church_name: "" },
-        { event_id: "event3", user_id: "user4", church_name: "" }
-    ];
+    // const userData = [
+    //     { event_id: "event3", user_id: "event3", church_name: "grace" },
+    //     { event_id: "event3", user_id: "user1", church_name: "" },
+    //     { event_id: "event3", user_id: "user2", church_name: "" },
+    //     { event_id: "event3", user_id: "user3", church_name: "" },
+    //     { event_id: "event3", user_id: "user4", church_name: "" }
+    // ];
 
 
     // const userData = { event_id: "event1", user_id: "event1", church_name: "grace" };
