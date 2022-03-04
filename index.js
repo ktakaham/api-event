@@ -45,6 +45,8 @@ function recordUser(username, userData) {
             event_id: userData.event_id,
             user_id: userData.user_id,
             church_name: userData.church_name,
+            event_name: userData.event_name,
+            event_date: userData.event_date,
             create_date: new Date().toISOString(),
           },
         },
