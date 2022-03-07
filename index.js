@@ -46,6 +46,7 @@ function recordUser(username, userData) {
             user_id: userData.user_id,
             church_name: userData.church_name,
             event_name: userData.event_name,
+            event_type: userData.event_type,
             event_date: userData.event_date,
             master_flag: userData.master_flag,
             create_date: new Date().toISOString(),
