@@ -49,7 +49,7 @@ function recordUser(username, userData) {
             event_type: userData.event_type,
             event_date: userData.event_date,
             master_flag: userData.master_flag,
-            master_flag: userData.guest_flag,
+            guest_flag: userData.guest_flag,
             create_date: new Date().toISOString(),
           },
         },
